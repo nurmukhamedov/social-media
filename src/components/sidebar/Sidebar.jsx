@@ -10,6 +10,8 @@ import {
   Bookmarks,
 } from "@mui/icons-material";
 
+import OfflineUsers from "../offline-user/OfflineUser.jsx";
+
 import "./Sidebar.scss";
 
 const Sidebar = () => {
@@ -56,96 +58,7 @@ const Sidebar = () => {
         </ul>
         <button className="sidebar__button">Show More</button>
         <hr className="sidebar__line" />
-        <ul className="sidebar__friend">
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-          <li className="sidebar__friend--item">
-            <img
-              className="sidebar__friend--pic"
-              src="/assets/person/2.jpeg"
-              alt="friends pics"
-            />
-            <span className="sidebar__friend--name">John Doe</span>
-          </li>
-        </ul>
+        <OfflineUsers />
       </div>
     </div>
   );

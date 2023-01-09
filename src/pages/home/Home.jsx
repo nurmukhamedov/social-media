@@ -6,14 +6,14 @@ import Feed from "../../components/feed/Feed";
 import "./Home.scss";
 const Home = () => {
   return (
-    <div>
+    <>
       <TopBar />
       <div className="home-container">
         <Sidebar />
         <Feed />
         <RightBar />
       </div>
-    </div>
+    </>
   );
 };
 
