@@ -1,11 +1,11 @@
-import Home from "./pages/home/Home";
+import { Profile } from "./components/profile/Profile";
 
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Profile />
     </div>
   );
 }
