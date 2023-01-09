@@ -29,8 +29,7 @@
       font-size: 12px;
     }
   }
-  &__center {
-  }
+
   &__center {
     margin: 20px 0;
     &--image {
@@ -53,6 +52,9 @@
       height: 24px;
       margin-right: 5px;
       cursor: pointer;
+    }
+    &--dislike {
+      transform: rotate(-180deg);
     }
     &--counter {
       font-size: 15px;

@@ -1,0 +1,22 @@
+.right {
+  &__menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    &--item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    &--container {
+      margin-right: 10px;
+      position: relative;
+    }
+    &--image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}
